@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Example_3_Arrays_List : MonoBehaviour {
 
-	string[] playerNames = new string[3];
-	List<string> enemyrNames = new List<string>();
+	public string[] playerNames = new string[3];
+	public List<string> enemyrNames = new List<string>();
 
 	// Use this for initialization
 	void Start () {
