@@ -5,6 +5,7 @@ using UnityEngine;
 public class Example_3_Arrays_List : MonoBehaviour {
 
 	string[] playerNames = new string[3];
+	List<string> enemyrNames = new List<string>();
 
 	// Use this for initialization
 	void Start () {
@@ -12,7 +13,11 @@ public class Example_3_Arrays_List : MonoBehaviour {
 		playerNames[1] = "jane";
 		playerNames[2] = "bob";
 
-		Debug.Log("Player name is"+playerNames[1]);
+		enemyrNames.Add("Boss 1");
+		enemyrNames.Add("Big Boss");
+		enemyrNames.Add("Bigger Boss");
+
+		Debug.Log("Player name is"+playerNames[1] + "boss is "+enemyrNames[2]);
 	}
 	
 	// Update is called once per frame
