@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Example_1 : MonoBehaviour {
 
-	string message = "Hello World";
+	public string message = "Hello World";
 
 	void Awake () {
 		Debug.Log("I'm First!");
