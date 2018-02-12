@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Example_1 : MonoBehaviour {
 
+	void Awake () {
+		Debug.Log("I'm First!");
+	}
+	
 	// Use this for initialization
 	void Start () {
 		Debug.Log("Hello World");
