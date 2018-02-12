@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Example_2_Variables : MonoBehaviour {
 
-	string playerName = "Player Name";
-	int playerHealth = 100;
-	float playerSpeed = 5.0f;
-	bool isDead = false;
+	public string playerName = "Player Name";
+	public int playerHealth = 100;
+	public float playerSpeed = 5.0f;
+	public bool isDead = false;
 
 	// Use this for initialization
 	void Start () {
-		
+		Debug.Log(playerName+playerSpeed+playerHealth+isDead);
 	}
 	
 	// Update is called once per frame
