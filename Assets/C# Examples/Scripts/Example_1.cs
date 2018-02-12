@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class Example_1 : MonoBehaviour {
 
+	string message = "Hello World";
+
 	void Awake () {
 		Debug.Log("I'm First!");
 	}
 	
 	// Use this for initialization
 	void Start () {
-		Debug.Log("Hello World");
+		Debug.Log(message);
 	}
 	
 	// Update is called once per frame
