@@ -5,9 +5,9 @@ using UnityEngine;
 public class Example_2_Variables : MonoBehaviour {
 
 	public string playerName = "Player Name";
-	public int playerHealth = 100;
+	[Range (0,100) ] public int playerHealth = 100;
 	public float playerSpeed = 5.0f;
-	public bool isDead = false;
+	[HideInInspector] public bool isDead = false;
 
 	// Use this for initialization
 	void Start () {
