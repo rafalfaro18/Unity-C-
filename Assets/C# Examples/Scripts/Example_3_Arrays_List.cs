@@ -9,13 +9,13 @@ public class Example_3_Arrays_List : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		playerNames[0] = "john";
-		playerNames[1] = "jane";
-		playerNames[2] = "bob";
+		// playerNames[0] = "john";
+		// playerNames[1] = "jane";
+		// playerNames[2] = "bob";
 
-		enemyrNames.Add("Boss 1");
-		enemyrNames.Add("Big Boss");
-		enemyrNames.Add("Bigger Boss");
+		// enemyrNames.Add("Boss 1");
+		// enemyrNames.Add("Big Boss");
+		// enemyrNames.Add("Bigger Boss");
 
 		Debug.Log("Player name is"+playerNames[1] + "boss is "+enemyrNames[2]);
 	}

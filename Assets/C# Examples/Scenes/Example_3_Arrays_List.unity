@@ -140,6 +140,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9975278c942134fde9f2d4e12bb20726, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerNames:
+  - First
+  - Middle
+  - Last
+  enemyrNames:
+  - Big
+  - Bad
+  - Mean
 --- !u!4 &246451219
 Transform:
   m_ObjectHideFlags: 0
